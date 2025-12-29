@@ -6,6 +6,8 @@ function App() {
 
  const getYear = () => new Date().getFullYear();
 
+ const price = 100;
+
 return (
   <div>
     <h1>Hello {name}</h1>
@@ -17,6 +19,8 @@ return (
 <input type="text" />
     </div>
       <img src={ReactLogo} alt="logo" />
+      <div className="price">Price: ${price}</div>
+      <input type="number" />
   </div>
   
 );
